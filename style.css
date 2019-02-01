@@ -29,6 +29,7 @@ a:active {
     background-color: #4a148c;
 }
 
-h4 {
+h4, #contacts {
     font-family: 'Satisfy', cursive;
 }
+
