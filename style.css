@@ -36,3 +36,7 @@ h4, #contacts {
 #mountainsImage {
     opacity: .8;
 }
+
+#contactLinks {
+  text-align: center;
+}
