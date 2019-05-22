@@ -13,100 +13,111 @@
     <!-- CSS -->
     <link href="style.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <style>
-    body {
-        background-image: url("Images/projectBackground.jpg");
-        background-size: cover;
-       
-      }
+
+   .btn {
+       border-radius: 0;
+   }
+   
     </style>
 
 </head>
 
 <body>
 
-    <div class="container">
-        <div class="row">
-            <!-- TABS-->
-            <div class="col s6">
+    
+            <div class="row" id="tabs">
+                    <div class="col-md-4"></div>
+                    <div class="col-md-4">
+                        <a class="waves-effect waves-light btn" id="nav" href="index.html">Home</a>
+                        <a class="waves-effect waves-light btn" id="nav" href="projects.html">Projects</a>
+                        <!-- <a class="waves-effect waves-light btn" id="nav" href="skills.html">Services</a> -->
+                        <a class="waves-effect waves-light btn" id="nav" href="contact.html">Contact</a>
+                        <a class="waves-effect waves-light btn" id="nav" href="https://docs.google.com/document/d/e/2PACX-1vSh3nUW42ddeMD6yci7M3cwt8dDK66BCg5Ju87g4-XQanj9N6ePBLKJ0ub1S7oOknKbwd1x_VLb7YSI/pub" target="_blank">Resume</a>
+                    </div>
+                        <div class="col-md-4"></div>
+                </div>
 
-            </div>
+        
+                <div class="container">
+                    <br>
+                    <br>
 
-            <div class="col s6">
-                <a class="waves-effect waves-light btn" id="nav" href="index.html">Home</a>
-                <a class="waves-effect waves-light btn" id="nav" href="projects.html">Projects</a>
-                <!-- <a class="waves-effect waves-light btn" id="nav" href="skills.html">Services</a> -->
-                <a class="waves-effect waves-light btn" id="nav" href="contact.html">Contact</a>
-                <a class="waves-effect waves-light btn" id="nav"
-                    href="https://docs.google.com/document/d/e/2PACX-1vSh3nUW42ddeMD6yci7M3cwt8dDK66BCg5Ju87g4-XQanj9N6ePBLKJ0ub1S7oOknKbwd1x_VLb7YSI/pub"
-                    target="_blank">Resume</a>
-            </div>
-        </div>
-        <br>
+        <div class="card-deck">
+                <div class="card">
+                  <div class="view overlay">
+                  <img src="Images/projectone.png" class="card-img-top img-fluid" alt="Find me a job applcation screen">
+                  <div class="card-body">
+                        <a href="https://kef12.github.io/Project-One/" target="_blank">Find me a job!</a>
+                        <hr>
+                    <p class="card-text">This group project allows users to input a desired job title and city to find a listing of job opportunities </p>
+                    <a href="https://github.com/AshleyHart12/Project-One" target="_blank">View on GitHub</a>
+                  </div>
+                </div>
+                </div>
 
-        <div class="row">
-            <h4 class="center-align">Latest Projects:</h4>
-        </div>
-        <br>
+                <div class="card">
+                  <img src="Images/projectTwo.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                        <a href="https://mighty-taiga-75803.herokuapp.com/" target="_blank">Coffee Quiz</a>
+                        <hr>
+                    <p class="card-text">This group project allows users to answer quiz questions to find out what kind of coffee type they are</p>
+                    <a href="https://github.com/AshleyHart12/Project-Two" target="_blank">View on GitHub</a>
+                  </div>
+                </div>
 
-        <!-- PROJECT ONE -->
-        <div class="row" id="projectRow">
-            <div class="col s8">
-                <img src="Images/projectone.png" class="responsive-img">
-            </div>
-            <div class="col s4">
-                <p>Group Project: <a href="https://kef12.github.io/Project-One/" target="_blank">Find me a job!</a></p>
-                <a href="https://github.com/AshleyHart12/Project-One" target="_blank">View on GitHub</a>
-                <p>This group project, titled ‘Find me a job!’, allows users to input a desired job title and city to find a listing of job opportunities  
-                </p>
-            </div>
-        </div>
-        <br>
+                <div class="card">
+                  <img src="Images/train.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                        <a href="https://ashleyhart12.github.io/Train-Schedule-Homework/" target="_blank">A&J
+                            Express</a>
+                            <hr>
+                    <p class="card-text">This project allows users to find the current schedule for the desired train route</p>
+                    <a href="https://github.com/AshleyHart12/Train-Schedule-Homework" target="_blank">View on GitHub</a>
+                  </div>
+                </div>
+              </div>
+  
+              <br>
+              <br>
 
-        <div class="row" id="projectRow">
-            <div class="col s8">
-                <img src="Images/projectTwo.png" class="responsive-img">
-            </div>
-            <div class="col s4">
-                <p>Group Project: <a href="https://mighty-taiga-75803.herokuapp.com/" target="_blank">Coffee Quiz
-                        Challenge</a></p>
-                <a href="https://github.com/AshleyHart12/Project-Two" target="_blank">View on GitHub</a>
-                <p>This group project allows users to answer quiz questions to find out what kind of coffee type they are
-                </p>
-            </div>
-        </div>
-        <br>
-
-        <!-- PROJECT TWO -->
-        <div class="row" id="projectRow">
-            <div class="col s8">
-                <img src="Images/train.png" class="responsive-img">
-            </div>
-            <div class="col s4">
-                <p>Train Schedule: <a href="https://ashleyhart12.github.io/Train-Schedule-Homework/" target="_blank">A&J
-                        Express</a></p>
-                <a href="https://github.com/AshleyHart12/Train-Schedule-Homework" target="_blank">View on GitHub</a>
-                <p>This project allows users to find the current schedule for the desired train route</p>
-            </div>
-        </div>
-        <br>
-
-        <!-- PROJECT THREE -->
-        <div class="row" id="projectRow">
-            <div class="col s8">
-                <img src="Images/crossfit.png" class="responsive-img">
-            </div>
-            <div class="col s4">
-                <p>Trivia Game: <a href="https://ashleyhart12.github.io/TriviaGame/" target="_blank">Crossfit Trivia
-                        Challenge</a></p>
-                <a href="https://github.com/AshleyHart12/TriviaGame" target="_blank">View on GitHub</a>
-                <p>This project provides a fun quiz for users to test their knowledge about the Crossfit Community</p>
-            </div>
-        </div>
+              <div class="card-deck">
+                    <div class="card">
+                      <img src="Images/crossfit.png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                            <a href=" https://ashleyhart12.github.io/TriviaGame/" target="_blank">Trivia Challenge</a>
+                            <hr>
+                        <p class="card-text">Simple multiple choice Trivia Game - You'll have :60 to complete the quiz. See how many you can get right!</p>
+                        <a href="https://github.com/AshleyHart12/TriviaGame" target="_blank">View on GitHub</a>
+                      </div>
+                    </div>
+    
+                    <div class="card">
+                      <img src="Images/clickGame.png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                            <a href="https://mighty-taiga-75803.herokuapp.com/" target="_blank">Memory Game</a>
+                            <hr>
+                        <p class="card-text">Classic Memory Game - Try to click every picture only once to win, but be warned, the tiles will re-shuffle around every guess!</p>
+                        <a href="https://github.com/AshleyHart12/Project-Two" target="_blank">View on GitHub</a>
+                      </div>
+                    </div>
+    
+                    <div class="card">
+                      <img src="Images/projectThreeImage.png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                            <a href=" https://young-crag-64758.herokuapp.com" target="_blank">Time To Kill</a>
+                                <hr>
+                        <p class="card-text">This application will allow users to counteract boredom by browsing recipes, playing games, or finding inspiration in quotes
+                            </p>
+                        <a href="https://github.com/AshleyHart12/Project-Three-Time-to-Kill" target="_blank">View on GitHub</a>
+                      </div>
+                    </div>
+                  </div>
 
 
         <!-- END CONTAINER -->
