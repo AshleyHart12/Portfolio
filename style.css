@@ -1,6 +1,6 @@
-#nav {
-    margin-top: 50px;
-    background-color: #4a148c;
+#mainNav {
+  
+    background-color: #1cafdbee;
     color: white;
   }
 
@@ -10,29 +10,11 @@
   }
 
 #bio1 {
-      padding-top: 50px;
+      padding-top: 25px;
       padding-right: 20px;
   }
 
-  a:hover {
-      color: #b39ddb;
-      
-      
-  }
 
-a:active {
-    color: #4a148c;
-    background-color: #f3e5f5;
-}
-
-a:active {
-    color: #f3e5f5;
-    background-color: #4a148c;
-}
-
-h4, #contacts {
-    font-family: 'Satisfy', cursive;
-}
 
 #mountainsImage {
     opacity: .8;
@@ -42,15 +24,36 @@ h4, #contacts {
   text-align: center;
 }
 
-#tabs {
-  
-  margin-top: -10px;
-  padding-bottom: 10px;
+.masthead {
+  background-image: url("./Images/NZ2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: 0% 5%;
+  height: 800px;
+}
+
+.intro-text {
+  text-align: center;
   background: white;
+  opacity: .9;
+  color: black;
+  font-weight: 300;
+  margin-top: -50px;
 }
 
+header.masthead {
+   padding-top:200px;
+   padding-bottom:100px;
+  }
+  
+  #projectRow, #contact, #projectContainer, #services {
+    padding: 25px;
 
-.btn {
-  border-radius: 0;
-}
+  }
 
+  footer {
+    padding: 20px;
+    text-align: center;
+    line-height: 200%;
+  }
