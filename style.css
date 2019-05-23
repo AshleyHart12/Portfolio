@@ -31,14 +31,15 @@
   background-attachment: scroll;
   background-position: 0% 5%;
   height: 800px;
+  width: 100%;
 }
 
 .intro-text {
   text-align: center;
-  background: white;
+  /* background: white; */
   opacity: .9;
   color: black;
-  font-weight: 300;
+  font-weight: 350;
   margin-top: -50px;
 }
 
@@ -47,13 +48,32 @@ header.masthead {
    padding-bottom:100px;
   }
   
-  #projectRow, #contact, #projectContainer, #services {
+  #projectRow, #contact, #projectContainer, .contact {
     padding: 25px;
 
   }
 
+  #services {
+    padding: 50px;
+  }
+
   footer {
-    padding: 20px;
+    padding: 5px;
     text-align: center;
-    line-height: 200%;
+    
+  }
+
+  #icons {
+    font-size: 70px;
+  }
+
+  #contact {
+    background-image: url("./Images/contactMe.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    background-position: 0% 65%;
+    color: white;
+    padding: 25px;
+
   }
